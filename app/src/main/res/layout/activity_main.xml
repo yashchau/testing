@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yashchauhan.testing.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativelayoutforfragmant"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/map"
+            tools:context=".MapsActivity"
+            android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="100dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/activate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="100dp"
+            android:text="Activate" />
+
+        <!--<ToggleButton-->
+            <!--android:id="@+id/dist_button"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="270dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="distance Button" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/result_distance"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="160dp"-->
+            <!--android:layout_marginTop="200dp"-->
+            <!--android:text="TextView"-->
+            <!--android:textColor="@color/wallet_holo_blue_light"-->
+            <!--android:textStyle="bold" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/mine2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="150dp"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:hint="Mine 2:"-->
+            <!--android:inputType="number" />-->
+
+        <!--<ToggleButton-->
+            <!--android:id="@+id/navigation"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="navigation" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/distance_button"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="250dp"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:text="Button" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/mine_path"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="200dp"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:text="Draw path" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/nav_mine"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="50dp"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:hint="Mine number:"-->
+            <!--android:inputType="number" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/mine"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="50dp"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:hint="Mine 1:"-->
+            <!--android:inputType="number" />-->
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:scaleType="matrix"-->
+            <!--android:src="@drawable/ruler" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/editText"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="100dp"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="number" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/editText2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="100dp"-->
+            <!--android:layout_marginTop="200dp"-->
+            <!--android:ems="10"-->
+            <!--android:inputType="number" />-->
+
+    </FrameLayout>
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
